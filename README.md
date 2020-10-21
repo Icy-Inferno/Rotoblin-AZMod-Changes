@@ -50,3 +50,8 @@ CHANGES TO FILE LOCATIONS (NOT INCLUDED IN REPO, DO THIS YOURSELF IF YOU WANT TH
 - l4d_vs_airport03_garage: re-added fence blocker at start
 - l4d_vs_airport04_terminal: metal detector event is forced again
 - l4d_vs_smalltown01_caves: removed bus and fences near start
+
+----addons/sourcemod/plugins----
+- l4dscores.smx modified by Harry Potter to remove pill bonus (still shows visually, is removed on round end)
+- l4d_boss_percent.smx modified by me to reflect survivor progress rather than boss location
+- l4d_current_survivor_progress.smx modified by me to reflect survivor progress rather than nearest potential boss spawn location
