@@ -15,6 +15,8 @@ CHANGES TO FILE LOCATIONS (NOT INCLUDED IN REPO, DO THIS YOURSELF IF YOU WANT TH
 - Spec listener (specs can listen to team voice chats) disabled.
 - Vocalize spam blocker disabled.
 - Stock tank lottery restored (tank_control_disable 1). Need confirmation that tank will still not pass.
+- Smoker tongue blocked by common again (collision_smoker_common 0)
+- Car alarm back to default (sm_cvar car_alarm_distance commented out)
 
 ----4v4 HARDCORE----
 - Hunting Rifle removed (still gives ammo).
@@ -26,6 +28,8 @@ CHANGES TO FILE LOCATIONS (NOT INCLUDED IN REPO, DO THIS YOURSELF IF YOU WANT TH
 - Team order 0 (leading team plays Survivor first); ABABA seems buggy? Teams tend to end up swapped.
 - Hunter claw damage 3
 - All shoves disabled on hunters
+- Smoker tongue recharge reverted to 15 seconds.
+- Hunter pounce ticks back to normal (z_pounce_damage 5; z_pounce_damage_interval 0.5)
 
 ----WITCH PARTY----
 - Tank speed 205 -> 210 (z_tank_speed_vs 210)
@@ -41,3 +45,8 @@ CHANGES TO FILE LOCATIONS (NOT INCLUDED IN REPO, DO THIS YOURSELF IF YOU WANT TH
 
 ----cfg/Reloadables----
 - Advertisements/Tips disabled
+
+----addons/stripper/Roto-AZMod/maps----
+- l4d_vs_airport03_garage: re-added fence blocker at start
+- l4d_vs_airport04_terminal: metal detector event is forced again
+- l4d_vs_smalltown01_caves: removed bus and fences near start
