@@ -5,7 +5,7 @@ NOTE: This is a collection of CHANGES to the base configuration. YOU MUST INSTAL
 
 CHANGES TO FILE LOCATIONS (NOT INCLUDED IN REPO, DO THIS YOURSELF IF YOU WANT THESE CHANGES:
 - all4dead.smx (admin spawning items, hordes, infected, etc.) moved to plugins/optional and thereby disabled.
-- l4d_quadcaps.smx (guaranteed quad when boomer dies last) moved to plugins/optional and thereby disabled. - NVM WHY CAN'T THIS THING BE REMOVED LOL
+- l4d_QuadCaps.smx - Can't move this to plugins/optional without implementing native KEEP_SI_STARTING somewhere else or using an old version of ready up
 
 ----MISSION FILES----
 - "Versus Modifers" normalized to 1.0 map multiplier.
