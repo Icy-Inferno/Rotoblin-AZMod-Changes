@@ -1,0 +1,115 @@
+"mission"
+{
+	"Name"		"Back to School"
+	"Version"       "3"
+	"Author"	"100_o/o_fake and romasm"
+	"Website"	"http://bts-l4d.com/"
+	"DisplayTitle"	"Back to School"
+	"Description"  	"Midterms are over, it's time for the Final Exam!"
+ 	"OuttroImage"	"vgui\outroTitle_bts"
+	"poster"
+	{
+		"posterImage"		"loadingScreen_bts"
+
+		"posterTitle"		""
+		"posterTitle_y"		"360"
+
+		"posterTagline"		""
+		"posterTagline_y"	"372"
+
+		// Adjust these to align the survivor names on your poster.
+		// 0,0 is center of the poster.
+		"bill_player_name_x"	"-128"
+		"bill_player_name_y"	"26"
+	
+		"zoey_player_name_x"	"26"
+		"zoey_player_name_y"	"36"
+
+		"louis_player_name_x"	"120"
+		"louis_player_name_y"	"10"
+		
+		"francis_player_name_x"	"-50"
+		"francis_player_name_y"	"-16"	
+	}
+
+	"modes"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map" "l4d_b2s01_forest"
+				"DisplayName" "Forest"
+				"Image" "maps/l4d_bts01_forest"
+			}
+
+			"2"
+			{
+				
+				"Map" "l4d_b2s02_station"
+				"DisplayName" "Train Station"
+				"Image" "maps/l4d_bts02_station"
+			}
+
+			"3"
+			{
+				"Map" "l4d_b2s03_town"
+				"DisplayName" "Town"
+				"Image" "maps/l4d_bts03_town"
+			}
+		}
+
+		"versus"
+		{
+
+			"1"
+			{
+				"Map" "l4d_b2s01_forest"
+				"DisplayName" "Forest VS"
+				"Image" "maps/l4d_bts01_forest"
+				"VersusModifier" "1.0"
+			}
+			"2"
+			{
+				"Map" "l4d_b2s02_station"
+				"DisplayName" "Train Station VS"
+				"Image" "maps/l4d_bts02_station"
+				"VersusModifier" "1.0"
+			}
+
+			"3"
+			{
+				"Map" "l4d_b2s03_town"
+				"DisplayName" "Town VS"
+				"Image" "maps/l4d_bts03_town"
+				"VersusModifier" "1.0"
+			}
+		}	
+	
+		"survival"
+		{
+			"1"
+			{
+				"Map" "l4d_sv_b2s01_forest"
+				"DisplayName" "Forest SV"
+				"Image" "maps/l4d_bts01_forest"
+			}
+
+			"2"
+			{
+				"Map" "l4d_sv_b2s02_station"
+				"DisplayName" "Train Station SV"
+				"Image" "maps/l4d_bts02_station"
+			}
+
+			"3"
+			{
+				"Map" "l4d_sv_b2s03_town"
+				"DisplayName" "Town SV"
+				"Image" "maps/l4d_bts03_town"
+			}
+			
+		}	
+	}
+
+}
