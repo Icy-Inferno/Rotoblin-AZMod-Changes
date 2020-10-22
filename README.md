@@ -15,8 +15,9 @@ CHANGES TO FILE LOCATIONS (NOT INCLUDED IN REPO, DO THIS YOURSELF IF YOU WANT TH
 - Spec listener (specs can listen to team voice chats) disabled.
 - Vocalize spam blocker disabled.
 - Stock tank lottery restored (tank_control_disable 1). Need confirmation that tank will still not pass.
-- Smoker tongue blocked by common again (collision_smoker_common 0)
+- Smoker-pulled survivors blocked by common again (collision_smoker_common 0)
 - Car alarm back to default (sm_cvar car_alarm_distance commented out)
+- Damage Pounce 50 -> 35
 
 ----4v4 HARDCORE----
 - Hunting Rifle removed (still gives ammo).
@@ -39,7 +40,7 @@ CHANGES TO FILE LOCATIONS (NOT INCLUDED IN REPO, DO THIS YOURSELF IF YOU WANT TH
 - No medkits or extra pills (rotoblin_health_style 3).
 
 ----cfg/Sourcemod----
-- cannounce.cfg - turned off detailed connect/disconnect messages
+- cannounce.cfg - turned off detailed connect/disconnect messages, turned off sounds
 - l4d_QuadCpas.cfg - disabled random chance to get 4 hunters
 - l4d_si_slowdown_remove.cfg - Commented out the cvar changes here so that they'll be handled by configs instead.
 
@@ -47,7 +48,7 @@ CHANGES TO FILE LOCATIONS (NOT INCLUDED IN REPO, DO THIS YOURSELF IF YOU WANT TH
 - Advertisements/Tips disabled
 
 ----addons/stripper/Roto-AZMod/maps----
-- l4d_vs_airport03_garage: re-added fence blocker at start
+- l4d_vs_airport03_garage: re-added fence blocker at start, re-added baggage cart to block starting event from far away
 - l4d_vs_airport04_terminal: metal detector event is forced again
 - l4d_vs_smalltown01_caves: removed bus and fences near start
 
@@ -55,3 +56,4 @@ CHANGES TO FILE LOCATIONS (NOT INCLUDED IN REPO, DO THIS YOURSELF IF YOU WANT TH
 - l4dscores.smx modified by Harry Potter to remove pill bonus (still shows visually, is removed on round end)
 - l4d_boss_percent.smx modified by me to reflect survivor progress rather than boss location
 - l4d_current_survivor_progress.smx modified by me to reflect survivor progress rather than nearest potential boss spawn location
+- linux_auto_restart.smx automatically restarts server when all human players disconnect
