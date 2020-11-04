@@ -44,8 +44,9 @@ CHANGES TO FILE LOCATIONS (NOT INCLUDED IN REPO, DO THIS YOURSELF IF YOU WANT TH
 - l4d_QuadCpas.cfg - disabled random chance to get 4 hunters
 - l4d_si_slowdown_remove.cfg - Commented out the cvar changes here so that they'll be handled by configs instead.
 
-----cfg/Reloadables----
+----cfg/Reloadables/server_custom_convars.cfg----
 - Advertisements/Tips disabled
+- Pill bonus disabled
 
 ----addons/stripper/Roto-AZMod/maps----
 - l4d_vs_airport03_garage: re-added fence blocker at start, re-added baggage cart to block starting event from far away
